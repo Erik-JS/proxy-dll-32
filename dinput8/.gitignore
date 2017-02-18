@@ -1,0 +1,6 @@
+*
+!.gitignore
+!dinput8.cbp
+!main.cpp
+!main.h
+!README.TXT

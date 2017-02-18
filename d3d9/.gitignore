@@ -1,0 +1,6 @@
+*
+!.gitignore
+!d3d9.cbp
+!main.cpp
+!main.h
+!README.TXT
