@@ -14,16 +14,23 @@
 				<Option createDefFile="1" />
 				<Option createStaticLib="1" />
 				<Compiler>
-					<Add option="-Wall" />
-					<Add option="-DBUILD_DLL" />
 					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-m32" />
+					<Add option="-DBUILD_DLL" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-m32" />
+					<Add option="-luuid -lole32 -lshlwapi" />
 					<Add library="user32" />
 				</Linker>
 			</Target>
 		</Build>
+		<Unit filename="../sharedcode/Logging.cpp" />
+		<Unit filename="../sharedcode/Logging.h" />
+		<Unit filename="../sharedcode/PluginLoader.cpp" />
+		<Unit filename="../sharedcode/PluginLoader.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
 		<Extensions>
