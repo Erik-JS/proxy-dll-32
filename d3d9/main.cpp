@@ -33,7 +33,7 @@ void loadOriginalD3D9()
 
 DWORD WINAPI Start(LPVOID lpParam)
 {
-    logStart("d3d9_proxy.log");
+    logStart("d3d9_proxy32.log");
     loadOriginalD3D9();
     if(!originalD3D9)
     {

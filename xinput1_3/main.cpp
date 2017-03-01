@@ -25,7 +25,7 @@ void loadOriginalINPUT()
 
 DWORD WINAPI Start(LPVOID lpParam)
 {
-    logStart("xinput1_3_proxy.log");
+    logStart("xinput1_3_proxy32.log");
     loadOriginalINPUT();
     if(!originalXINPUT)
     {

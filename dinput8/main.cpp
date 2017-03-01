@@ -19,7 +19,7 @@ void loadOriginalDINPUT8()
 
 DWORD WINAPI Start(LPVOID lpParam)
 {
-    logStart("dinput8_proxy.log");
+    logStart("dinput8_proxy32.log");
     loadOriginalDINPUT8();
     if(!originalDINPUT8)
     {
