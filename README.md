@@ -28,7 +28,7 @@ The loading function has been tweaked by me so it looks for plugins in a given s
 * Place fake DLL in the game's exe folder;
 * Game loads fake DLL;
 * Fake DLL loads real DLL from System folder;
-* Fake DLL writes a log to fakedll_proxy64.log to current user's Documents folder;
+* Fake DLL writes a log to fakedll_proxy32.log to current user's Documents folder;
 * Fake DLL loads ASI files from ASI subfolder (or the game's executable folder).
 
 ## Games with Denuvo
