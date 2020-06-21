@@ -41,8 +41,9 @@ DWORD WINAPI Start(LPVOID lpParam)
         logEnd();
         return 0;
     }
-    loadPlugins(".");
     loadPlugins("ASI");
+    if(GetPluginLoadCount() == 0)
+        loadPlugins(".");
     logEnd();
     return 0;
 }
